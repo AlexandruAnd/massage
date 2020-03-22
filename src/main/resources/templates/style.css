@@ -1,0 +1,46 @@
+#tasks-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#tasks-table td, #tasks-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tasks-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#tasks-table tr:hover {background-color: #ddd;}
+
+#tasks-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #FFC000;
+    /*color: white;*/
+
+    /*margin: 0px;*/
+    /*padding: 0px;*/
+    /*background: #3D3D3D;*/
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 11pt;
+    font-weight: 300;
+    color: #6c6c6c
+}
+h1, h2, h3
+{
+    margin: 5px;
+    padding: 5px;
+    font-weight: 600;
+    color: #454445;
+    /*font-size: 11pt;*/
+}
+
+
+/* ch by class */
+/*.delete-task{*/
+
+/*    color: sienna;*/
+/*}*/

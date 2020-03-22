@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Appoiment</title>
+    <link type="text/css" rel="stylesheet" href="appoiment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+</head>
+<body>
+
+<h1> To Do List </h1>
+
+<div id="add-task">
+    <h3>Add tasks</h3>
+    <form id="new-task-form">
+        <label for="nume-field">Nume: </label>
+        <input type="text" id="nume-field" placeholder="Nume"/>
+        <label for="prenume-field">Prenume: </label>
+        <input type="text" id="prenume-field" placeholder="Prenume"/>
+        <label for="programare-field">Programare: </label><input type="date" id="programare-field">
+        <input type="submit" value="Save"/>
+    </form>
+</div>
+
+<div>
+    <table id="tasks-table">
+        <thead>
+        <tr>
+            <th>Last Name</th>
+            <th>First Name</th>
+            <th>Date</th>
+            <th>Cancel Appoiment</th>
+        </tr>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+
+<script src="js/lib/jquery-3.4.1.js"></script>
+<script src="js/task.js"></script>
+
+</body>
+</html>
