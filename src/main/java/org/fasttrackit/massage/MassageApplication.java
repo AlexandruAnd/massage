@@ -10,4 +10,7 @@ public class MassageApplication {
 		SpringApplication.run(MassageApplication.class, args);
 	}
 
+
+
+
 }

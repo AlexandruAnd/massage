@@ -198,9 +198,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="220" y="0" key="CommitChangelistDialog2" timestamp="1584891530650">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="220" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584891530650" />
     <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1584891380954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="108" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584891380954" />
+    <state x="564" y="262" width="261" height="204" key="Github.ShareDialog" timestamp="1584891516432">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="564" y="262" width="261" height="204" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1584891516432" />
+    <state x="275" y="88" key="Vcs.Push.Dialog.v2" timestamp="1584891477758">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="88" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584891477758" />
   </component>
 </project>
