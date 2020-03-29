@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f46ffbcf-b485-47ad-88bf-af0ebc0ca56b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/massage/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/massage/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/massage/persistance/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/massage/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/massage/transfer/SaveProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/massage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/massage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/appoiment.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/appoiment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/appoiment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +33,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -84,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584890011977</updated>
       <workItem from="1584890029894" duration="2867000" />
-      <workItem from="1585484192909" duration="6824000" />
+      <workItem from="1585484192909" duration="7391000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1584891461198</created>
@@ -100,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584891554571</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="wip">
+      <created>1585493648701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585493648701</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +111,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1585485238978">
@@ -127,10 +131,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584892200962" />
-    <state x="220" y="0" key="CommitChangelistDialog2" timestamp="1584891553032">
+    <state x="220" y="0" key="CommitChangelistDialog2" timestamp="1585493645676">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="220" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584891553032" />
+    <state x="220" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585493645676" />
     <state x="463" y="108" key="FileChooserDialogImpl" timestamp="1584891380954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -139,14 +143,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="564" y="262" width="261" height="204" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1584891516432" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585494000956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585494000956" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1585494000956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585494000956" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1585494000956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585494000956" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1585494000956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585494000956" />
+    <state width="1323" height="179" key="GridCell.Tab.1.bottom" timestamp="1585494000957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585494000957" />
+    <state width="1323" height="179" key="GridCell.Tab.1.center" timestamp="1585494000956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585494000956" />
+    <state width="1323" height="179" key="GridCell.Tab.1.left" timestamp="1585494000956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585494000956" />
+    <state width="1323" height="179" key="GridCell.Tab.1.right" timestamp="1585494000957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585494000957" />
     <state x="213" y="21" key="Maven.ArtifactSearchDialog" timestamp="1585490900570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="21" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1585490900570" />
-    <state x="275" y="88" key="Vcs.Push.Dialog.v2" timestamp="1584891558073">
+    <state x="275" y="88" key="Vcs.Push.Dialog.v2" timestamp="1585493651745">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="88" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584891558073" />
+    <state x="275" y="88" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585493651745" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1585484198502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
