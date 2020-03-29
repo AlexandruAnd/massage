@@ -1,5 +1,5 @@
 #tasks-table {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS",Arial, Arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
     margin-top: 30px;
@@ -8,11 +8,18 @@
 #tasks-table td, #tasks-table th {
     border: 1px solid #ddd;
     padding: 8px;
+    font-family: Tahoma, sans-serif;
 }
 
 #tasks-table tr:nth-child(even){background-color: #f2f2f2;}
 
 #tasks-table tr:hover {background-color: #ddd;}
+
+#nume-field th{
+    font-family: Tahoma, sans-serif;
+    background-color: #FFC000;
+
+}
 
 #tasks-table th {
     padding-top: 12px;
@@ -24,17 +31,22 @@
     /*margin: 0px;*/
     /*padding: 0px;*/
     /*background: #3D3D3D;*/
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Tahoma, sans-serif;
     font-size: 11pt;
     font-weight: 300;
     color: #6c6c6c
 }
 h1, h2, h3
 {
+    background-color: #FFC000;
+    text-align: center;
+    padding-bottom: 40px;
     margin: 5px;
     padding: 5px;
     font-weight: 600;
-    color: #454445;
+    color: #45130a;
+    font-family: Arial;
+
     /*font-size: 11pt;*/
 }
 
